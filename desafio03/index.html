@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio-3 Banderas</title>
+    <style>
+        .container{
+            clear: both;
+        }
+        .bandera{
+            position: relative;
+            width: 400px;
+            height: 250px;
+            margin: 10px;
+            float: left;
+            border: solid 1px lightgrey;
+        }
+        .rojo-españa{
+            background-color: red;
+            width: 100%;
+            height: 26%;
+        }
+        .amarillo-españa{
+            background-color: yellow;
+            width: 100%;
+            height: 48%;
+        }
+        .rojo1-dinamarca{
+            background-color: red;
+            height: 115px;
+            width: 115px;
+            margin-right: 20px;
+            float: left;
+        }
+        .rojo2-dinamarca{
+            background-color: red;
+            height: 115px;
+            width: 265px;
+            float: left;
+        }
+        .margin-top{
+            margin-top: 20px;
+        }
+        .rojo-emiratos{
+            float: left;
+            height: 100%;
+            width: 100px;
+            background-color: red;
+        }
+        .verde-emiratos{
+            height: 83px;
+            width: 100%;
+            background-color: green;
+        }
+        .negro-emiratos{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            height: 83px;
+            width: calc(100% - 100px);
+            background-color: black;
+        }
+        .japon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .rojo-japon{
+            background-color: red;
+            height: 110px;
+            width: 110px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bandera">
+            <div class="rojo-españa"></div>
+            <div class="amarillo-españa"></div>
+            <div class="rojo-españa"></div>
+        </div>
+        <div class="bandera">
+            <div class="rojo1-dinamarca"></div>
+            <div class="rojo2-dinamarca"></div>
+            <div class="rojo1-dinamarca margin-top"></div>
+            <div class="rojo2-dinamarca margin-top"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="bandera">
+            <div class="rojo-emiratos"></div>
+            <div class="verde-emiratos"></div>
+            <div class="negro-emiratos"></div>
+        </div>
+        <div class="bandera japon">
+            <div class="rojo-japon"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
